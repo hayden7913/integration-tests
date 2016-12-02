@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:app: secret-journey-87016
+  provider: heroku
+  api_key:
+    secure: LQoDi5AD+CRf0NEG8kkHOGedOqcZ5Qi7qjv0HfCK934rR5oTL+kZe9WIaMpIeD/o68NY/yeMcxZ/qaymTt1HEEsV1tA3lovz1l8TQrOjB17VmxXR/GYFV3onh7gXQ+wBb90242Cnz3MXyS5qYLWhGdh07gbIKF225sGFITG6tE84ZXKMozUYi6BSgdQ2JmISku6gXPVPmr4Qn868N0Ek281cO/Ux+o3G3tsxSDt8EdnoOez/v26MvkQJCJJbfslg4RktRVAq18DF8oiOlN84jg0ffnjx1EvyyF99bvdlsJnWghZcmptrckYK26XdrZflQIcTwFFtvijJa1jgyTBUW+iyfODYjBMSA5SXLzdG0A+eN8uY+r29Iq5dHIBBtcFuT+tCc/ijGdw58xY7cFJaOQGR5468erglgIpCSD5xMSwqovxLaAQylWLhbF/krcL4ERzJJuw+DYsTji3Zzu783XpGMUWiZNQz1SlznsNbwfRXi3ZOaqyvgn8N67mr+sM7hyUdnagjFq525lPqHFSEGYwh7NqBqvga/4QkWVQNgG1yxQxAVCNRjewf66w+jWFBpIplB14Pnirt6Q6YXzVq04JflpBeZpiA9t0WXVLUMiVyw+6OWYZSP4vkOmbNC2Mp5TrJnjFkIS5lyt4SrhaJrlQk5481XyS/NDXmiBGM9zw=
+  app: integration-tests
+  on:
+    repo: hayden7913/integration-tests
